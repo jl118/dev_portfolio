@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --pale-blue: rgb(104, 175, 160);
+    --charcoal: rgb(56, 61, 65);
+    --off-white: rgb(193, 230, 217);
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--off-white);
+}
+
+h1,
+h2,
+h3 {
+    color: var(--charcoal);
+}
+
+h2 {
+    background-color: var(--pale-blue);
+    padding: 5px 20px;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    display: inline;
+}
+
+li {
+    float: right;
+    border-bottom: 2px solid var(--charcoal);
+    margin: 2px;
+}
+
+li a {
+    text-decoration: none;
+    display: block;
+    padding: 16px;
+    color: var(--charcoal);
+    text-align: center;
+    
+}
+
+aside {
+    margin: 0 1.5%;
+    padding: 20px;
+    clear: both;
+    float: left;
+    width: 20%;
+}
+
+.aboutme-text {
+    float: right;
+    margin: 0 1.5%;
+    width: 63%;
+}
+
+.name-header {
+    background-color: var(--pale-blue);
+    padding-left: 30px;
+    padding-right: 5px;
+    margin: 20px 0px 20px 40px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-image {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../images/colorized_sunset.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 15em;
+    height: 20%;
+    width: 100%;
+}
+
+.hero-subtitle {
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+}
+

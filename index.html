@@ -9,10 +9,10 @@
   </head>
 
   <body>
-    <header>
+    <header class="flex">
         <h1 class="name-header">Name</h1>
         <nav>
-            <ul>
+            <ul class="nav-bar">
                 <li><a href="#about-me">About Me</a></li>
                 <li><a href="#work">Work</a></li>
                 <li><a href="#contact-me">Contact Me</a></li>
@@ -21,12 +21,11 @@
         </nav>
     </header>
 
-    <div class="hero">
-        <!-- background image -->
-        <img class="hero-image" src="assets/images/colorized_sunset.jpg" alt="sunset reflecting on clouds">
+    <!-- background image -->
+    <div class="hero-image">
         <!-- subtitle within picture -->
-        <div class="subtitle">
-            <h2>
+        <div class="hero-subtitle">
+            <h2 class="hero-header">
                 Cool subtitle here!
             </h2>
         </div>
@@ -35,7 +34,7 @@
     <main>
         <!-- About Me Sidebar -->
         <aside class="aboutme-sidebar">
-            <h1 id="about-me">About Me</h1>
+            <h3 id="about-me">About Me</h3>
         </aside>
 
         <section class="aboutme-text">
@@ -48,7 +47,7 @@
         </section>
 
         <aside class="work-sidebar">
-            <h1 id="work">Work</h1>
+            <h3 id="work">Work</h3>
         </aside>
 
         <!-- work cards -->
@@ -98,7 +97,7 @@
 
     <footer>
         <aside>
-            <h1 id="contact-me" class="contact-sidebar">Contact Me</h1>
+            <h3 id="contact-me" class="contact-sidebar">Contact Me</h3>
         </aside>
         <nav>
             <ul>
