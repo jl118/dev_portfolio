@@ -5,12 +5,13 @@
     <title>Portfolio</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css" />
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
   </head>
 
   <body>
-    <header class="flex">
-        <h1 class="name-header">Name</h1>
+    <header class="page-header flex">
+        <h1 class="dev-name">Developer's Name</h1>
         <nav>
             <ul class="nav-bar">
                 <li><a href="#about-me">About Me</a></li>
@@ -32,7 +33,7 @@
     </div>
 
     <main>
-        <!-- About Me Sidebar -->
+        <!-- About Me sidebar title -->
         <aside class="aboutme-sidebar">
             <h3 id="about-me">About Me</h3>
         </aside>
@@ -54,41 +55,46 @@
         <div class="work-projects">
             <section class="card project-1">
                 <a href="#">
-                    <header>Project 1</header>
-                    <img src="assets/images/blue_light_hotel.jpg" alt="The Palm Hotel in Dubai">
-                    <p>Language(s) Used</p>
+                    <div class="card-text">
+                        <header class="card-header">Project 1</header>
+                        <p>Language(s) Used</p>
+                    </div>
                 </a>
             </section>
 
-            <section class="card">
+            <section class="card project-2">
                 <a href="#">
-                    <header>Project 2</header>
-                    <img src="assets/images/closeup_code.jpg" alt="extreme closeup of code">
-                    <p>Language(s) Used</p>
+                    <div class="card-text">
+                        <header class="card-header">Project 2</header>
+                        <p>Language(s) Used</p>
+                    </div>
                 </a>
             </section>
 
-            <section class="card">
+            <section class="card project-3">
                 <a href="#">
-                    <header>Project 3</header>
-                    <img src="assets/images/digital_cube.jpg" alt="digital art of a translucent colorful cube">
-                    <p>Language(s) Used</p>
+                    <div class="card-text">
+                        <header class="card-header">Project 3</header>
+                        <p>Language(s) Used</p>
+                    </div>
                 </a>
             </section>
 
-            <section class="card">
+            <section class="card project-4">
                 <a href="#">
-                    <header>Project 4</header>
-                    <img src="assets/images/keyboard_closeup.jpg" alt="close up of a black laptop keyboard">
-                    <p>Language(s) Used</p>
+                    <div class="card-text">
+                        <header class="card-header">Project 4</header>
+                        <p>Language(s) Used</p>
+                    </div>
                 </a>
             </section>
 
-            <section class="card">
+            <section class="card project-5">
                 <a href="#">
-                    <header>Project 5</header>
-                    <img src="assets/images/code_image.jpeg" alt="an illuminated web connecting snippets of code">
-                    <p>Language(s) Used</p>
+                    <div class="card-text">
+                        <header class="card-header">Project 5</header>
+                        <p>Language(s) Used</p>
+                    </div>
                 </a>
             </section>
         </div>
@@ -99,17 +105,36 @@
         <aside>
             <h3 id="contact-me" class="contact-sidebar">Contact Me</h3>
         </aside>
-        <nav>
+        <nav class="footer-nav">
             <ul>
-                <li><a href="">555.555.5555</a></li>
-                <li><a href="#">name@website.com</a></li>
-                <li><a href="">GitHub</a></li>
-                <li><a href="#">Twitter</a></li>
-                <li><a href="#">LinkedIn</a></li>
+                <li class="footer-li">
+                    <a href="#">
+                        555.555.5555
+                    </a>
+                </li>
+                <li class="footer-li">
+                    <a href="#">
+                        name@website.com
+                    </a>
+                </li>
+                <li class="footer-li">
+                    <a href="#">
+                        GitHub
+                    </a>
+                </li>
+                <li class="footer-li">
+                    <a href="#">
+                        Twitter
+                    </a>
+                </li>
+                <li class="footer-li">
+                    <a href="#">
+                        LinkedIn
+                    </a>
+                </li>
             </ul>
         </nav>
     </footer>
-
   </body>
 
 </html>

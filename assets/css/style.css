@@ -1,3 +1,4 @@
+/* General Styling */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -5,9 +6,15 @@
 }
 
 :root {
-    --pale-blue: rgb(104, 175, 160);
+    --pale-blue: rgb(115, 226, 208);
     --charcoal: rgb(56, 61, 65);
-    --off-white: rgb(193, 230, 217);
+    --off-white: rgb(208, 233, 229);
+    --peach: rgb(201, 149, 129);
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
 }
 
 body {
@@ -21,50 +28,85 @@ h3 {
     color: var(--charcoal);
 }
 
+h1 {
+    font-size: 3.25rem;
+}
+
 h2 {
+    font-size: 2.5rem;
     background-color: var(--pale-blue);
     padding: 5px 20px;
+}
+
+h3 {
+    text-align: end;
+    font-size: 4rem;
+}
+
+p {
+    font-size: 1.8rem;
 }
 
 ul {
     list-style-type: none;
     overflow: hidden;
     display: inline;
+    margin-right: 20px;
 }
 
 li {
-    float: right;
-    border-bottom: 2px solid var(--charcoal);
-    margin: 2px;
+    float: left;
+    border-bottom: 3px solid var(--pale-blue);
+    margin: 5px 15px;
+    font-size: 1.8rem;
+    font-weight: bolder;
 }
 
 li a {
-    text-decoration: none;
     display: block;
-    padding: 16px;
-    color: var(--charcoal);
+    padding: 10px;
+    color: var(--pale-blue);
     text-align: center;
-    
+}
+
+a {
+    text-decoration: none;
+}
+
+.page-header {
+    background-color: var(--charcoal);
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    scroll-behavior: smooth;
 }
 
 aside {
-    margin: 0 1.5%;
-    padding: 20px;
+    margin: 1.5%;
+    padding: 10px;
     clear: both;
     float: left;
-    width: 20%;
+    width: 18%;
+    border-right: 4px solid var(--charcoal);
+}
+
+footer {
+    display: flex;
+    align-items: center;
 }
 
 .aboutme-text {
     float: right;
-    margin: 0 1.5%;
-    width: 63%;
+    margin: 1.5%;
+    width: 65%;
 }
 
-.name-header {
+ /* Header Styling */
+.dev-name {
     background-color: var(--pale-blue);
-    padding-left: 30px;
-    padding-right: 5px;
+    padding: 5px 5px 5px 30px;
     margin: 20px 0px 20px 40px;
 }
 
@@ -74,6 +116,7 @@ aside {
     align-items: center;
 }
 
+/* Hero Styling */
 .hero-image {
     display: flex;
     flex-direction: column;
@@ -81,14 +124,115 @@ aside {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    min-height: 15em;
-    height: 20%;
+    min-height: 25em;
     width: 100%;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 
 .hero-subtitle {
     display: flex;
     position: relative;
-    justify-content: flex-end;
+    margin: 20px 50px;
 }
 
+/* Cards */
+.work-projects {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+}
+
+.card {
+    border: 5px solid var(--peach);
+    border-radius: 2px;
+    box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.2s;
+    margin: 1.5%;
+    height: 200px;
+    display: flex;
+    justify-content: left;
+    align-items: flex-end;
+}
+
+.card-text {
+    background-color: var(--peach);
+    color: var(--charcoal);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.card-header {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 10px 10px 10px 0px;
+}
+
+.project-1 {
+    background-image: linear-gradient(95deg, rgba(240, 150, 98, 0.3), rgb(138, 242, 242, 0.3)), url(../images/light-wall.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex: 1 1 90%;
+    height: 350px;
+}
+
+.project-2 {
+    background-image: linear-gradient(95deg, rgba(240, 150, 98, 0.3), rgb(138, 242, 242, 0.3)), url(../images/closeup_code.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex: 1 1 45%;
+}
+
+.project-3 {
+    background-image: linear-gradient(95deg, rgba(240, 150, 98, 0.3), rgb(138, 242, 242, 0.3)), url(../images/digital_cube.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex: 1 1 45%;
+}
+
+.project-4 {
+    background-image: linear-gradient(95deg, rgba(240, 150, 98, 0.3), rgb(138, 242, 242, 0.3)), url(../images/keyboard_closeup.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex: 1 1 45%;
+}
+
+.project-5 {
+    background-image: linear-gradient(95deg, rgba(240, 150, 98, 0.3), rgb(138, 242, 242, 0.3)), url(../images/code_image.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex: 1 1 45%;
+}
+
+/* Footer Styling */
+.footer-li {
+    border-bottom: 3px solid var(--charcoal);
+    margin-left: 20px;
+}
+
+.footer-li a {
+    color: var(--charcoal);
+}
+
+/* Media Queries */
+@media screen and (max-width: 992px) {
+    
+}
+
+@media screen and (max-width: 768px) {
+    
+}
+
+@media screen and (max-width: 576px) {
+    
+}
