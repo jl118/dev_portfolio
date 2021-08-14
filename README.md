@@ -19,10 +19,10 @@ Utilizing media queries, it is responsive across most mobile devices.
 ## Layout
 
 * Desktop Layout:
-    ![On a desktop or large tablet, the page displays a horizontal navigation bar in the header and footer, with section titles to the left of the sections.](assets\images\fullsize_screenshot.png)
+    ![On a desktop or large tablet, the page displays a horizontal navigation bar in the header and footer, with section titles to the left of the sections.](./assets/images/fullsize_screenshot.png)
 
 * Mobile Layout:
-    ![On a mobile device, the page displays a more vertical layout and one card per row.](assets\images\mobile_screenshot.png)
+    ![On a mobile device, the page displays a more vertical layout and one card per row.](./assets/images/mobile_screenshot.png)
 
 ## Link to Deployed Page
 
