@@ -223,6 +223,16 @@ footer {
     display: inline-block;
 }
 
+/* Hover Styling */
+a:hover {
+    color: var(--peach);
+}
+
+.card:hover {
+    border: 5px solid var(--peach);
+    box-shadow: 6px 6px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
 /* Media Queries */
 @media screen and (max-width: 992px) {
     h3 {
