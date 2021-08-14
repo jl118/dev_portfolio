@@ -25,3 +25,5 @@ Utilizing media queries, it is responsive across most mobile devices.
     ![On a mobile device, the page displays a more vertical layout and one card per row.](assets\images\mobile_screenshot.png)
 
 ## Link to Deployed Page
+
+https://jl118.github.io/h2_portfolio/
