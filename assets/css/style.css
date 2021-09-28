@@ -144,6 +144,15 @@ footer {
     z-index: 1;
 }
 
+.typing::after {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 80%;
+    border-right: 2px solid white;
+    animation: blink 0.7s infinite;
+}
+
 /* Cards */
 .work-cards {
     display: flex;
@@ -435,4 +444,13 @@ a:hover {
 
 .burger-toggle .line3 {
     transform: rotate(45deg) translate(-5px, -6px);
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
