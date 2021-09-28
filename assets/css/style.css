@@ -98,6 +98,21 @@ a {
     transition: all 0.3s ease;
 }
 
+.resume-page {
+    background-color: rgb(54, 60, 87);
+}
+
+.resume-image {
+    display: flex;
+    background-size: cover;
+    width: 100%;
+}
+
+.resume-text {
+    color: white;
+    text-align: center;
+}
+
 main {
     display: flex;
     flex-wrap: wrap;
