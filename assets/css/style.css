@@ -190,7 +190,6 @@ footer {
     display: flex;
     justify-content: left;
     align-items: flex-end;
-    /* background-attachment: fixed; */
 }
 
 .card-text {
