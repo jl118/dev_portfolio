@@ -1,14 +1,18 @@
-# h2_portfolio
+# Portfolio Prototype
+
+## Link to Deployed Page
+
+https://jl118.github.io/h2_portfolio/
 
 ## Overview
 
-This is the prototype for a Developer Portfolio made with HTML and CSS.
+This is the prototype for my portfolio made with HTML, JavaScript, and CSS.
 
 Utilizing media queries, it is responsive across most mobile devices.
 
 ## About the Page
 
-* The header highlights the developer's name, and also contains a navigation bar to jump to different sections of the page, as well as space to link to a resume.
+* The header highlights the developer's name, and also contains a navigation bar to jump to different sections of the page, as well as space to link to a resume. This navigation bar changes to a 'burger' link for mobile devices, with the links sliding into view from the right side of the page. 
 
 * A hero below the navigation bar can be swapped for a photo, or an aesthetic image that shows the developer's interests and personality.
 
@@ -22,8 +26,8 @@ Utilizing media queries, it is responsive across most mobile devices.
     ![On a desktop or large tablet, the page displays a horizontal navigation bar in the header and footer, with section titles to the left of the sections.](./assets/images/fullsize_screenshot.png)
 
 * Mobile Layout:
+    ![On a mobile device, the navigation bar becomes a responsive 'burger' menu.](./assets/images/mobile1.png)
+
     ![On a mobile device, the page displays a more vertical layout and one card per row.](./assets/images/mobile_screenshot.png)
 
-## Link to Deployed Page
 
-https://jl118.github.io/h2_portfolio/
