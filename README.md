@@ -2,7 +2,7 @@
 
 ## Link to Deployed Page
 
-https://jl118.github.io/h2_portfolio/
+https://jl118.github.io/dev_portfolio/
 
 ## Overview
 
