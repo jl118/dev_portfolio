@@ -200,6 +200,10 @@ i {
     margin-bottom: 20px;
 }
 
+.card-text a {
+    color: var(--deepwarm);
+}
+
 .card-header {
     font-size: 2rem;
     font-weight: bold;
@@ -217,7 +221,7 @@ i {
 }
 
 .project-2 {
-    background-image: linear-gradient(95deg, rgba(240, 150, 98, 0.3), rgb(138, 242, 242, 0.3)), url(../images/weather.png);
+    background-image: linear-gradient(95deg, rgba(240, 150, 98, 0.3), rgb(138, 242, 242, 0.3)), url(../images/flipped_pages_desktop.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -225,7 +229,7 @@ i {
 }
 
 .project-3 {
-    background-image: linear-gradient(95deg, rgba(240, 150, 98, 0.3), rgb(138, 242, 242, 0.3)), url(../images/generator.png);
+    background-image: linear-gradient(95deg, rgba(240, 150, 98, 0.3), rgb(138, 242, 242, 0.3)), url(../images/fitness-tracker.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -233,7 +237,7 @@ i {
 }
 
 .project-4 {
-    background-image: linear-gradient(95deg, rgba(240, 150, 98, 0.3), rgb(138, 242, 242, 0.3)), url(../images/planner_desktop.png);
+    background-image: linear-gradient(95deg, rgba(240, 150, 98, 0.3), rgb(138, 242, 242, 0.3)), url(../images/weather.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -241,7 +245,7 @@ i {
 }
 
 .project-5 {
-    background-image: linear-gradient(95deg, rgba(240, 150, 98, 0.3), rgb(138, 242, 242, 0.3)), url(../images/flipped_pages_desktop.png);
+    background-image: linear-gradient(95deg, rgba(240, 150, 98, 0.3), rgb(138, 242, 242, 0.3)), url(../images/planner_desktop.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
